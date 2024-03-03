@@ -4,11 +4,11 @@
 </template>
 
 <script>
-import PureTaskList from '@/components/task/PureTaskList.vue'
+import PureTaskList from './PureTaskList.vue'
 
 import { computed } from 'vue';
 
-import { useTaskStore } from '../store';
+import { useTaskStore } from '../../store.js';
 
 export default {
   components: { PureTaskList },
